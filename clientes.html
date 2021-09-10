@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clientes</title>
+    <link rel="stylesheet" href="../Dashboard/css/inventario.css">
+    <link rel="stylesheet" href="../Dashboard/css/all.css">
+</head>
+<body>
+
+    <input type="checkbox" id="sidebar-toggle">
+    <div class="sidebar">
+        <div class="sidebar-header">
+            <h3 class="brand"> <span class="ti-unlink"></span> 
+                <span>Soul Ink 76</span>
+            </h3> 
+            <label for="sidebar-toggle" class="fas fa-bars"></label>
+        </div>
+
+        <div class="sidebar-menu">
+            <ul>
+                <li>
+                    <a href="../Dashboard/admin.html">
+                        <span class="fas fa-home"></span>
+                        <span>Panel de control</span>
+                    </a></li>
+                <li>
+                    <a href="../Dashboard/inventario.html">
+                        <span class="fab fa-wpforms"></span>
+                        <span>Inventario</span>
+                    </a></li>
+                <li>
+                    <a href="../Dashboard/clientes.html">
+                        <span class="fas fa-users"></span>
+                        <span>Clientes</span>
+                    </a></li>
+                <li>
+                    <a href="../Dashboard/usuarios.html">
+                        <span class="fas fa-user-cog"></span>
+                        <span>Usuarios</span>
+                    </a></li>
+                <li>
+                    <a href="../Dashboard/proveedores.html">
+                        <span class="fas fa-clipboard-check"></span>
+                        <span>Proveedores</span>
+                    </a></li>
+                <li>
+                    <a href="../pruebaerror.html">
+                        <span class="fas fa-truck-moving"></span>
+                        <span>Pedidos</span>
+                    </a></li>
+                <li>
+                    <a href="../pruebaerror.html">
+                        <span class="fas fa-cogs"></span>
+                        <span>Configuración</span>
+                    </a></li>
+                <li>
+                    <a href="../usuarioslogin.html">
+                        <span class="fas fa-sign-out-alt"></span>
+                        <span>Cerrar sesión</span>
+                    </a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="main-content">
+        <header>
+            <div class="search-wrapper">
+                <span class="fas fa-search"></span>
+                <input type="search" placeholder="search">
+            </div>
+
+            <div class="social-icons">
+                <span class="far fa-bell"></span>
+                <span class="far fa-comment"></span>
+                <h5>Admin</h5>
+                <div></div>
+            </div>
+        </header>
+
+        <main>
+            <h2 class="dash-title">Clientes</h2>
+            <div class="dash-cards">
+                <div class="card-single">
+                    <div class="card-body">
+                        <span class="fas fa-user-plus"></span>
+                        <div>
+                            <h5>Nuevo Cliente</h5>
+                        </div>
+                    </div>
+
+                    <div class="card-footer">
+                        <a href="../Dashboard/clientenuevo.html">Agregar nuevo</a>
+                    </div>
+                </div>
+
+                <div class="card-single">
+                    <div class="card-body">
+                        <span class= "fas fa-user-check"></span>
+                        <div>
+                            <h5>Lista de Clientes</h5>
+                        </div>
+                    </div>
+
+                    <div class="card-footer">
+                        <a href="../Dashboard/clientes.html">Ver todo</a>
+                    </div>
+                </div>
+
+                <div class="card-single">
+                    <div class="card-body">
+                        <span class= "fas fa-chalkboard-teacher"></span>
+                        <div>
+                            <h5>Buscar clientes</h5>
+                        </div>
+                    </div>
+
+                    <div class="card-footer">
+                        <a href="../Dashboard/buscarcliente.html">Buscar</a>
+                    </div>
+                </div>
+            </div>
+
+            <section class="recent">
+                <div class="activity-grid">
+                    <div class="activity-card">
+                        <h3>Lista de clientes</h3>
+    
+                        <table> 
+                            <thead>
+                                <tr>
+                                    <th>N°</th>
+                                    <th>Tipo Documento</th>
+                                    <th>N° Documento</th>
+                                    <th>Nombre</th>
+                                    <th>Barrio</th>
+                                    <th>Celular</th>
+                                    <th>Actualizar</th>
+                                    <th>Eliminar</th>
+                                </tr>
+                                <tbody>
+                                    <tr>
+                                        <td>1</td>
+                                        <td>Cédula</td>
+                                        <td>1045477344</td>
+                                        <td>Carlos A. Cartago Ruiz</td>
+                                        <td>Usme</td>
+                                        <td>3224567843</td>
+                                        <td><i class="fas fa-user-edit"></i></td>
+                                        <td><i class="fas fa-user-times"></i></td>
+                                    </tr>
+                                    <tr>
+                                        <td>2</td>
+                                        <td>Cédula</td>
+                                        <td>1234654234</td>
+                                        <td>Marcela D. Perez Diaz</td>
+                                        <td>Bosa</td>
+                                        <td>3212345623</td>
+                                        <td><i class="fas fa-user-edit"></i></td>
+                                        <td><i class="fas fa-user-times"></i></td>
+                                    </tr>
+                                    <tr>
+                                        <td>4</td>
+                                        <td>Cédula</td>
+                                        <td>1256838002</td>
+                                        <td>Andres F. Sanchez</td>
+                                        <td>Kennedy Central</td>
+                                        <td>3162534555</td>
+                                        <td><i class="fas fa-user-edit"></i></td>
+                                        <td><i class="fas fa-user-times"></i></td>
+                                    </tr>
+                                    <tr>
+                                        <td>5</td>
+                                        <td>Cédula</td>
+                                        <td>1064553443</td>
+                                        <td>Martha A. Torres Gil</td>
+                                        <td>Kennedy Central</td>
+                                        <td>3214562873</td>
+                                        <td><i class="fas fa-user-edit"></i></td>
+                                        <td><i class="fas fa-user-times"></i></td>
+                                    </tr>
+                                    <tr>
+                                        <td>6</td>
+                                        <td>Cédula</td>
+                                        <td>1112653453</td>
+                                        <td>Amparo Ruiz Farfan</td>
+                                        <td>Kennedy Central</td>
+                                        <td>3154637756</td>
+                                        <td><i class="fas fa-user-edit"></i></td>
+                                        <td><i class="fas fa-user-times"></i></td>
+                                    </tr>
+                                    <tr>
+                                        <td>7</td>
+                                        <td>Cédula</td>
+                                        <td>1342554365</td>
+                                        <td>Yury T. Marin Torres</td>
+                                        <td>Fontibon</td>
+                                        <td>3214783377</td>
+                                        <td><i class="fas fa-user-edit"></i></td>
+                                        <td><i class="fas fa-user-times"></i></td>
+                                    </tr>
+                                    <tr>
+                                        <td>8</td>
+                                        <td>Cédula</td>
+                                        <td>1324566789</td>
+                                        <td>Catalina Marin Santana</td>
+                                        <td>Kennedy Central</td>
+                                        <td>3054742339</td>
+                                        <td><i class="fas fa-user-edit"></i></td>
+                                        <td><i class="fas fa-user-times"></i></td>
+                                    </tr>
+                                    <tr>
+                                        <td>9</td>
+                                        <td>Cédula</td>
+                                        <td>1234784323</td>
+                                        <td>Albeiro Castillo Cortes</td>
+                                        <td>Kennedy Central</td>
+                                        <td>3024531789</td>
+                                        <td><i class="fas fa-user-edit"></i></td>
+                                        <td><i class="fas fa-user-times"></i></td>
+                                    </tr>
+                                    <tr>
+                                        <td>10</td>
+                                        <td>Cédula</td>
+                                        <td>103145773</td>
+                                        <td>Martin Elias Campos</td>
+                                        <td>Kennedy Central</td>
+                                        <td>3154678399</td>
+                                        <td><i class="fas fa-user-edit"></i></td>
+                                        <td><i class="fas fa-user-times"></i></td>
+                                    </tr>
+                                </tbody>
+                            </thead>
+                        </table>
+                    </div>
+
+                    </div>
+                </div>
+
+            </section>
+        </main>
+    </div>
+</body>
+</html>

@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proveedores</title>
+    <link rel="stylesheet" href="../Dashboard/css/clientenuevo.css">
+    <link rel="stylesheet" href="../Dashboard/css/all.css">
+</head>
+<body>
+
+    <input type="checkbox" id="sidebar-toggle">
+    <div class="sidebar">
+        <div class="sidebar-header">
+            <h3 class="brand"> <span class="ti-unlink"></span> 
+                <span>Soul Ink 76</span>
+            </h3> 
+            <label for="sidebar-toggle" class="fas fa-bars"></label>
+        </div>
+
+        <div class="sidebar-menu">
+            <ul>
+                <li>
+                    <a href="../Dashboard/admin.html">
+                        <span class="fas fa-home"></span>
+                        <span>Panel de control</span>
+                    </a></li>
+                <li>
+                    <a href="../Dashboard/inventario.html">
+                        <span class="fab fa-wpforms"></span>
+                        <span>Inventario</span>
+                    </a></li>
+                <li>
+                    <a href="../Dashboard/clientes.html">
+                        <span class="fas fa-users"></span>
+                        <span>Clientes</span>
+                    </a></li>
+                <li>
+                    <a href="../Dashboard/usuarios.html">
+                        <span class="fas fa-user-cog"></span>
+                        <span>Usuarios</span>
+                    </a></li>
+                <li>
+                    <a href="../Dashboard/proveedores.html">
+                        <span class="fas fa-clipboard-check"></span>
+                        <span>Proveedores</span>
+                    </a></li>
+                <li>
+                    <a href="../pruebaerror.html">
+                        <span class="fas fa-truck-moving"></span>
+                        <span>Pedidos</span>
+                    </a></li>
+                <li>
+                    <a href="../pruebaerror.html">
+                        <span class="fas fa-cogs"></span>
+                        <span>Configuración</span>
+                    </a></li>
+                <li>
+                    <a href="../usuarioslogin.html">
+                        <span class="fas fa-sign-out-alt"></span>
+                        <span>Cerrar sesión</span>
+                    </a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="main-content">
+        <header>
+            <div class="search-wrapper">
+                <span class="fas fa-search"></span>
+                <input type="search" placeholder="search">
+            </div>
+
+            <div class="social-icons">
+                <span class="far fa-bell"></span>
+                <span class="far fa-comment"></span>
+                <h5>Admin</h5>
+                <div></div>
+            </div>
+        </header>
+
+        <main>
+            <h2 class="dash-title">Proveedores</h2>
+            <div class="dash-cards">
+                <div class="card-single">
+                    <div class="card-body">
+                        <span class="fas fa-user-plus"></span>
+                        <div>
+                            <h5>Nuevo proveedor</h5>
+                        </div>
+                    </div>
+
+                    <div class="card-footer">
+                        <a href="../Dashboard/agregarproveedor.html">Agregar nuevo</a>
+                    </div>
+                </div>
+
+                <div class="card-single">
+                    <div class="card-body">
+                        <span class= "fas fa-user-check"></span>
+                        <div>
+                            <h5>Lista de Proveedores</h5>
+                        </div>
+                    </div>
+
+                    <div class="card-footer">
+                        <a href="../Dashboard/proveedores.html">Ver todo</a>
+                    </div>
+                </div>
+
+                <div class="card-single">
+                    <div class="card-body">
+                        <span class= "fas fa-chalkboard-teacher"></span>
+                        <div>
+                            <h5>Buscar Proveedor</h5>
+                        </div>
+                    </div>
+
+                    <div class="card-footer">
+                        <a href="../Dashboard/buscarproveedor.html">Buscar</a>
+                    </div>
+                </div>
+            </div>
+
+            <section class="recent">
+                <div class="activity-grid">
+                    <div class="activity-card">
+                        <h3>Buscar Proveedor</h3>
+    
+                        <table> 
+                            <div class="Formulario">
+                                <form action="/action_page.php">
+                                  <label for="fname">Nombres Completos</label>
+                                  <input type="text" id="fname" name="firstname" placeholder="Primer y segundo nombre">
+                              
+                                  <label for="lname">Apellidos Completos</label>
+                                  <input type="text" id="lname" name="lastname" placeholder="Primer y segundo apellido">
+
+                                  <input type="submit" value="Buscar Proveedor">
+                                </form>
+                              </div>
+                        </table>
+                    </div>
+
+                    </div>
+                </div>
+
+            </section>
+        </main>
+    </div>
+</body>
+</html>
